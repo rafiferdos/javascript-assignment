@@ -45,7 +45,7 @@ function hotelCost(day) {
         var initialTenDays = 10 * 100;
         var remaining = day - 10;
         var upcomingTenDays = remaining * 80;
-        cost = firstTenDays + upcomingTenDays;
+        cost = initialTenDays + upcomingTenDays;
     }
 
     else {
