@@ -2,7 +2,6 @@
 
 function kilometerToMeter(kilometer) {
     var meter = kilometer * 1000;
-    // 1km is equals to 1000m
 
     if (kilometer < 0) {
         return "Misconception: The number you've entered must be positive (+)"
