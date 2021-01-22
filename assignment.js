@@ -19,7 +19,7 @@ function budgetCalculator(watch, phone, laptop) {
     var sum = watch * 50 + phone * 100 + laptop * 500;
 
     if (watch == undefined || phone == undefined || laptop == undefined) {
-        return "Misconception: Fill-up the three values"
+        return "Misconception: Fill-up the three value/s"
     }
 
     else if (watch < 0 || phone < 0 || laptop < 0) {
